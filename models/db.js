@@ -7,7 +7,7 @@ class DB {
         console.error('Could not connect to database', err);
       } else {
         console.log('Connected to database');
-        this.init(); // Ensure tables are created when connected
+        this.init();
       }
     });
   }
